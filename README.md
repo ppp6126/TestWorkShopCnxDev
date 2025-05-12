@@ -24,3 +24,7 @@ CREATE TABLE Movies (
     overview TEXT NOT NULL,
     release_date DATE NOT NULL
 );
+
+
+ยิง post man api 
+http://localhost:5010/api/movies/upcoming
