@@ -86,7 +86,7 @@ export default function Popular() {
     var x = new Boolean(false);
     let i = 0;
     debugger
-    if(favorites > 0){
+    if(favorites.length > 0){
       for (i = 0; i < favorites.length; i++) {
         if (favorites[i] === newValue) {
           console.log(favorites[i] + " === " + newValue)
